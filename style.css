@@ -1,0 +1,86 @@
+body {
+   font-family: arial,sans-serif;
+   margin: 0;
+   padding: 0;
+   background: #f8f9fa;
+   color: #333;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.projects .project {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom:  1rem;
+    border-left:  4px solid #1e90ff;  /* pour le trait bleu à gauche des listes projects*/
+}
+
+
+.skills {
+    border-top: 3px solid rgb(14, 132, 124);   /*Pour la ligne en haut séparant les différents sections*/
+   
+}
+
+.projects {
+    border-top: 3px solid rgb(14, 132, 124);
+}
+.contact{
+    border-top: 3px solid rgb(14, 132, 124);
+}
+.parcours{
+    border-top: 3px solid rgb(14, 132, 124);
+   height: 650px;
+   background-color: white;
+}
+
+
+a {
+   color: #1e90ff;
+   text-decoration: none;
+}
+
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+footer {
+    text-align:  center;
+    padding:  1rem;
+    background-color:  #333;
+    color: white;
+    margin-top: 2rem;
+    border-top: 5px solid rgb(4, 248, 232);
+}
